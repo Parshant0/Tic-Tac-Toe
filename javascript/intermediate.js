@@ -13,7 +13,7 @@ function CPUturn()
                 turn ++;
                 nextIndex = Math.floor(Math.random()*9)+1;
                 document.getElementById("s" + nextIndex).textContent = "O";
-                document.getElementById("s"+ nextIndex).style.color = "#";
+                document.getElementById("s"+ nextIndex).style.color = "#6BD425";
                 choice_history.push(nextIndex);
                 return;
             }
