@@ -42,7 +42,7 @@ function CPUturn()
                 {
                     choice_history.push(i);
                     document.getElementById("s"+i).textContent = "O";
-                    document.getElementById("s"+nextIndex).style.color = "#6BD425";
+                    document.getElementById("s"+i).style.color = "#6BD425";
                     return;
                 }
             }
@@ -110,7 +110,6 @@ function check(turn_n,index)
     {
         if(document.getElementById("s"+index).textContent==" ")
         {
-            console.log(index);
             return 1;
         }
     }
